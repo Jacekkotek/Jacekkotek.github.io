@@ -35,8 +35,27 @@ body {
 .nigel:hover {background-color: #FF2400}
 .jimmy:hover {background-color: #3e8e41}
 .charles:hover {background-color: #3e8e41}
+.thomas2:hover{background-color: #3e8e41;}
+.nigel2:hover{background-color: #ff0808;}
+.bristol:hover{background-color: #770000;}
 
+.bristol{
+  display: block;
+  border: 0px solid;
 
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: auto;
+  border-radius: 12px;
+  width: 25%;
+  height: 3vw;
+  float: center;
+  padding: 2.5%;
+  color: white;
+  background-color: var(--palette_select);
+}
 h1{
   font-size: 4vh;
   padding: 0%;
@@ -47,13 +66,21 @@ h1{
 
 h3{
   text-align: center;
-  padding-top: 2.5%;
-  font-size: 4%;
+  padding-top: 0.5%;
+  font-size: 1.5vw;
 }
 
 h5{
-  padding-bottom: 10%;
+  padding-bottom: 7.5%;
 }
+h6{
+  margin: 0%;
+  padding: 0%;
+  border: 5%;
+  border-top: 5%;
+  font-size: 120%;
+}
+
 .jeff {
     float: left;
     width: 25%;
@@ -118,13 +145,23 @@ h5{
   float: middle;
   width: 90%;
   margin: auto;
-
+  
   background-color: var(--palette_logo);
   outline-style:none
 
   
 }
+.jennifer2 {
+  border-radius: 12px;
+  float: middle;
+  width: 90%;
+  margin: auto;
+  height: 19%;
+  background-color: var(--palette_logo);
+  outline-style:none
+
   
+}
 h4 {
   text-align: center;
   color: var(--palette_text);
@@ -144,7 +181,7 @@ h2 {
   }
 
 .charles {
-  background-color: var(--palette_standard_bg);
+  background-color: var(--palette_select);
   border: none;
   color: var(--palette_highlight_bg);
   padding: 15px 32px 15px;
@@ -175,7 +212,7 @@ h2 {
   font-size: auto;
   border-radius: 12px;
   width: 25%;
-  height: 15%;
+  height: 3vw;
   float: left;
   padding: 2.5%;
 }
@@ -183,7 +220,6 @@ h2 {
 .nigel {
   display: block;
   border: 0px solid;
-  background-color: var(--palette_logo);
   border: none;
   color: white;
   text-align: center;
@@ -192,11 +228,44 @@ h2 {
   font-size: auto;
   border-radius: 12px;
   width: 25%;
-  height: 15%;
+  height: 3vw;
   float: right;
   padding: 2.5%;
+  background-color: var(--palette_select);
+  
 }
-
+.nigel2 {
+  display: block;
+  border: 0px solid;
+  background-color: var(--palette_select);
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: auto;
+  border-radius: 12px;
+  width: 25%;
+  height: 3vw;
+  padding: 2.5%;
+  float: center;
+}
+.thomas2 {
+  display: block;
+  border: 0px solid;
+  background-color: var(--palette_select);
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: auto;
+  border-radius: 12px;
+  width: 25%;
+  height: 3vw;
+  padding: 2.5%;
+  float: center;
+}
 .martin {
   display: block;
   margin: 0;
@@ -209,7 +278,7 @@ h2 {
 .jimmy {
   display: block;
   border: 3px solid ;
-  background-color: var(--palette_standard_bg);
+  background-color: var(--palette_select);
   border: none;
   width: 75%;
   color: white;
@@ -225,7 +294,7 @@ h2 {
 .Jatzy{
   display: block;
   border: 3px solid;
-  background-color: var(--palette_standard_bg);
+  background-color: var(--palette_select);
   border: none;
   width: 75%;
   color: white;
