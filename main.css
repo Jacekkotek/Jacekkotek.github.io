@@ -1,0 +1,248 @@
+
+
+:root {
+  --palette_standard_bg: #272727;
+  --palette_select: #1d1c1c;
+  --palette_buttong: #44ff00;
+  --palette_buttonr: #990100;
+  --palette_text: #999999;
+  --palette_logo: #151515;
+}
+html{
+  background-color: var(--palette_standard_bg);
+}
+
+.no-close .ui-dialog-titlebar-close {
+  display: none;
+}
+
+--pallet
+body {
+    background-color: var(--palette_standard_bg);
+}
+
+.bob {
+    background-color: var(--palette_standard_bg);
+    padding: 15px;
+
+    height: 7.5vh;
+    
+}
+
+.Jatzy:hover {background-color: #3e8e41}
+.Jatzykoffor:hover {background-color: #FFA500}
+.thomas:hover {background-color: #3e8e41}
+.nigel:hover {background-color: #FF2400}
+.jimmy:hover {background-color: #3e8e41}
+.charles:hover {background-color: #3e8e41}
+
+
+h1{
+  font-size: 4vh;
+  padding: 0%;
+  color: var(--palette_text);
+  text-align: right;
+  padding-right: 47.5%;
+}
+
+h3{
+  text-align: center;
+  padding-top: 2.5%;
+  font-size: 4%;
+}
+.jeff {
+    float: left;
+    width: 25%;
+    margin: auto;
+    background-color: var(--palette_standard_bg);
+    outline-color: var(--palette_logo);
+    outline-style: outset;
+
+    text-align: center;
+    color: var(--palette_text);
+    border-radius: 2%;
+    min-height: 83vh;
+    height: 800px;
+  }
+
+.george {
+    float: left;
+    width: 25%;
+    margin: auto;
+    background-color: var(--palette_standard_bg);
+    outline-color: var(--palette_logo);
+    outline-style: outset;
+    text-align: center;
+    color: var(--palette_text);
+    border-radius: 2%;
+    min-height: 83vh;
+    height: 800px;
+
+  }
+
+.aimi {
+    float: left;
+    width: 25%;
+    margin: auto;
+    text-align: center;
+    background-color: var(--palette_standard_bg);
+    outline-color: var(--palette_logo);
+    outline-style: outset;
+
+    color: var(--palette_text);
+    border-radius: 2%;
+    min-height: 83vh;
+    height: 800px;
+  }
+
+.hayami {
+    float: left;
+    width: 25%;
+    margin: auto;
+    background-color: var(--palette_standard_bg);
+    outline-color:var(--palette_logo);
+    outline-style: outset;
+    text-align: center;
+    color: var(--palette_text);
+    border-radius: 2%;
+    min-height: 83vh;
+    height: 800px;
+  }
+
+.jennifer {
+  border-radius: 12px;
+  float: middle;
+  width: 90%;
+  margin: auto;
+
+  background-color: var(--palette_logo);
+  outline-style:none
+
+  
+}
+  
+h4 {
+  text-align: center;
+  color: var(--palette_text);
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-top: 5%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.charles {
+  background-color: var(--palette_standard_bg);
+  border: none;
+  color: var(--palette_highlight_bg);
+  padding: 15px 32px 15px;
+  margin: auto;
+  margin-bottom: 5%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  width: 75%;
+}
+  
+.jasper {
+  text-align: center;
+  color: darkslategrey
+}
+
+.thomas {
+  display: block;
+  border: 0px solid;
+  background-color: var(--palette_standard_bg);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  width: 75%;
+  margin-bottom: 5%;
+}
+
+.nigel {
+  display: block;
+  border: 3px solid --palette_buttong;
+  background-color: var(--palette_standard_bg);
+  border: none;
+  width: 75%;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  margin-bottom: 5%;
+}
+
+.martin {
+  display: block;
+  margin: 0;
+  left: 57%;
+  -ms-transform: translate(-57%, -57%);
+  transform: translate(-57, -57%);
+}
+
+.jimmy {
+  display: block;
+  border: 3px solid ;
+  background-color: var(--palette_standard_bg);
+  border: none;
+  width: 75%;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  margin-bottom: 5%;
+}
+
+.Jatzy{
+  display: block;
+  border: 3px solid;
+  background-color: var(--palette_standard_bg);
+  border: none;
+  width: 75%;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: auto;
+  border-radius: 12px;
+  margin-bottom: 5%;
+}
+.Jatzykoffor{
+  display: block;
+  border: 3px solid;
+  background-color: var(--palette_select);
+  border: none;
+  width: 10vw;
+  height: 5vh;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: auto;
+  float: left;
+  
+}
+
