@@ -41,6 +41,22 @@ let kennethblevinsjohnsimpsonaberothdonbirdrudolphrogers7 = 0
 let kennethblevinsjohnsimpsonaberothdonbirdrudolphrogers8 = 0
 let kennethblevinsjohnsimpsonaberothdonbirdrudolphrogers9 = 0
 let dorothy = 50000
+var ichi = []
+var ni = []
+var san = []
+var shi = []
+var go = []
+var rocko = []
+var shichi = []
+var hachi = []
+var kyu = []
+var jyu = []
+var a = ""
+var b = -1
+var c = ""
+var d = ""
+var f = []
+var cc = ""
 
 function billclinton() {
     henry = true

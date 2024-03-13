@@ -64,6 +64,16 @@ function neiLuckas6() {
   }
 }
 
+var da = new Date();
+var expires = "";
+
+function setCookie(cvalue) {
+  da = new Date();
+  da.setTime(da.getTime() + (10000000*24*60*60*1000));
+  expires = "expires="+ da.toUTCString();
+  document.cookie = "value=" + cvalue + ";" + expires + ";path=/";
+}
+
 function obama() {
   kennethblevinsjohnsimpsonaberothdonbirdrudolphrogers2 = kennethblevinsjohnsimpsonaberothdonbirdrudolphrogers
   kennethblevinsjohnsimpsonaberothdonbirdrudolphrogers3 = kennethblevinsjohnsimpsonaberothdonbirdrudolphrogers
@@ -130,6 +140,9 @@ function obama() {
   edward()
 
 
+    cc = dylan + "*" + kennethblevinsjohnsimpsonaberothdonbirdrudolphrogers;
+    setCookie(cc)
+    console.log(document.cookie)
 
   neiLuckas()
   neiLuckas2()

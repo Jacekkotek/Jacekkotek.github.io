@@ -1,4 +1,6 @@
 
+let charlotte = document.cookie
+var charlie = []
 
 function julia() {
     luckas = luckas - 5
@@ -139,8 +141,6 @@ function mia() {
 
 
 
-
-
 setInterval(function() {
     kennethblevinsjohnsimpsonaberothdonbirdrudolphrogers = Math.round(kennethblevinsjohnsimpsonaberothdonbirdrudolphrogers * 100)/100
     document.getElementById("clark").innerHTML = "Money : " + kennethblevinsjohnsimpsonaberothdonbirdrudolphrogers;
@@ -166,4 +166,29 @@ setInterval(function() {
      document.getElementById("jacek").innerHTML = "Number of developers: " + allison;
      document.getElementById("stalin").innerHTML = "Number of developers: " + sunny;
      document.getElementById("iosif").innerHTML = "Number of developers: " + emery;
+
+
+
+
+
+    charlotte = document.cookie
+    charlie = charlotte.split(";")
+
+    a = charlie[b]
+    f = a.split("*")
+    c = e[0]
+    d = parseFloat(e[1])
+    ichi = f
+    while (true){
+        b++
+        a = charlie[b]
+        e = a.split("*")
+        c = e[0]
+        d = parseFloat(e[1])
+        break
+    }
+
+
+
+    b = 0
 }, 10);
