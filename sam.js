@@ -1,5 +1,5 @@
 
-let charlotte = document.cookie
+var charlotte = document.cookie
 var charlie = []
 
 function julia() {

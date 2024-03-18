@@ -27,7 +27,6 @@ function bobby() {
             }
         }
     }
-    document.getElementById("john-oscar").innerHTML = donald - (allison + sunny + emery);
 }
 
 function norman() {

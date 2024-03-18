@@ -64,14 +64,9 @@ function neiLuckas6() {
   }
 }
 
-var da = new Date();
-var expires = "";
 
 function setCookie(cvalue) {
-  da = new Date();
-  da.setTime(da.getTime() + (10000000*24*60*60*1000));
-  expires = "expires="+ da.toUTCString();
-  document.cookie = "value=" + cvalue + ";" + expires + ";path=/";
+  document.cookie = cvalue + ";expires=Fri, 18 Dec 2122 12:00:00 UTC;path=/";
 }
 
 function obama() {
@@ -141,7 +136,9 @@ function obama() {
 
 
     cc = dylan + "*" + kennethblevinsjohnsimpsonaberothdonbirdrudolphrogers;
+    cc = cc.toString()
     setCookie(cc)
+    document.cookie = cc + ";expires=Fri, 18 Dec 2122 12:00:00 UTC;path=/";
     console.log(document.cookie)
 
   neiLuckas()
