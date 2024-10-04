@@ -137,7 +137,7 @@ function obama() {
 
     cc = dylan + "*" + kennethblevinsjohnsimpsonaberothdonbirdrudolphrogers;
     cc = cc.toString()
-    setCookie(cc)
+    // setCookie(cc)
     document.cookie = cc + ";expires=Fri, 18 Dec 2122 12:00:00 UTC;path=/";
     console.log(document.cookie)
 
